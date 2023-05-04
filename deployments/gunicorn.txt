@@ -1,0 +1,10 @@
+# Change this in `/etc/system/systemd/gunicorn.service`
+[Unit]
+Description=gunicorn daemon
+
+[Service]
+WorkingDirectory=/home/user/app
+ExecStart=/home/user/app/venv/bin/gunicorn --access-logfile --workers 3 --bind unix:/home/user/app/app.sock deployment.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
