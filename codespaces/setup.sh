@@ -7,7 +7,8 @@
 #################################
 
 # Install Hardhat
-npm i -g hardhat
+# Can use hardhat cli using npx
+# npm i -g hardhat
 
 #Install Foundry
 curl -L https://foundry.paradigm.xyz | bash
