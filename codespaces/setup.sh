@@ -10,11 +10,14 @@
 # Can use hardhat cli using npx
 # npm i -g hardhat
 
-#Install Foundry & Huff
+# Install Foundry
 curl -L https://foundry.paradigm.xyz | bash
-curl -L get.huff.sh | bash
 source ~/.bashrc
 foundryup
+
+# Install Huff
+curl -L get.huff.sh | bash
+source ~/.bashrc
 huffup
 
 # Install Slither
