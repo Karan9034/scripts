@@ -32,3 +32,9 @@ cargo install aderyn
 
 # Install Solana CLI
 sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
+
+# Install AVM
+cargo install --git https://github.com/coral-xyz/anchor avm --force
+# Install Anchor CLI
+avm install latest
+avm use latest
