@@ -29,3 +29,6 @@ source ~/.bashrc
 
 # Install Aderyn
 cargo install aderyn
+
+# Install Solana CLI
+sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
