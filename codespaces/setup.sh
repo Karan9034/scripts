@@ -31,7 +31,7 @@ source ~/.bashrc
 cargo install aderyn
 
 # Install Solana CLI
-sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
+sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
 
 # Install AVM
 cargo install --git https://github.com/coral-xyz/anchor avm --force
